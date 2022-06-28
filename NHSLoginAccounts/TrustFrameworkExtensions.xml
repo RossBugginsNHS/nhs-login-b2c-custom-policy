@@ -51,8 +51,6 @@
       </Metadata>
       <CryptographicKeys>
         <Key Id="assertion_signing_key" StorageReferenceId="B2C_1A_sandpitjwtsigning" />
-         <Key Id="client_secret" StorageReferenceId="B2C_1A_sandpitjwtsigning" />
-        
       </CryptographicKeys>
        <InputClaimsTransformations>
             <InputClaimsTransformation ReferenceId="CreateRandomJti" />
