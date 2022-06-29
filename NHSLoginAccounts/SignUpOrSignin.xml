@@ -31,6 +31,13 @@
         <OutputClaim ClaimTypeReferenceId="email" />
         <OutputClaim ClaimTypeReferenceId="objectId" PartnerClaimType="sub"/>
         <OutputClaim ClaimTypeReferenceId="identityProvider" />
+        <OutputClaim ClaimTypeReferenceId="nhs_birthdate" PartnerClaimType="birthdate" />
+        <OutputClaim ClaimTypeReferenceId="nhs_identity_proofing_level" PartnerClaimType="identity_proofing_level" />
+             <!--  <OutputClaim ClaimTypeReferenceId="nhs_phone_number" PartnerClaimType="phone_number" />
+                <OutputClaim ClaimTypeReferenceId="nhs_phone_number_verified" PartnerClaimType="phone_number_verified" />
+        <OutputClaim ClaimTypeReferenceId="nhs_email_verified" PartnerClaimType="email_verified" />
+     -->
+
         <OutputClaim ClaimTypeReferenceId="tenantId" AlwaysUseDefaultValue="true" DefaultValue="{Policy:TenantObjectId}" />
       </OutputClaims>
       <SubjectNamingInfo ClaimType="sub" />

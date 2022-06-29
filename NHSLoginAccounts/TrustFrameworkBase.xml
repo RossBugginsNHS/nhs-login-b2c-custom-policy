@@ -27,7 +27,37 @@
       <!-- SECTION I: Claims required for user journeys to work properly -->
       <!-- The claim socialIdpUserId has been renamed to issuerUserId -->
 
-        <ClaimType Id="jti">
+        <ClaimType Id="nhs_birthdate">
+        <DisplayName>nhs_birthdate</DisplayName>
+        <DataType>string</DataType>
+      </ClaimType>
+
+      
+        <ClaimType Id="nhs_phone_number">
+        <DisplayName>nhs_birthdate</DisplayName>
+        <DataType>string</DataType>
+      </ClaimType>
+
+      
+        <ClaimType Id="nhs_phone_number_verified">
+        <DisplayName>nhs_birthdate</DisplayName>
+        <DataType>string</DataType>
+      </ClaimType>
+
+        
+        <ClaimType Id="nhs_email_verified">
+        <DisplayName>nhs_birthdate</DisplayName>
+        <DataType>string</DataType>
+      </ClaimType>
+
+        
+        <ClaimType Id="nhs_identity_proofing_level">
+        <DisplayName>nhs_birthdate</DisplayName>
+        <DataType>string</DataType>
+      </ClaimType>
+
+
+              <ClaimType Id="jti">
         <DisplayName>jti</DisplayName>
         <DataType>string</DataType>
       </ClaimType>
